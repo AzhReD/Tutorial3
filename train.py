@@ -10,5 +10,5 @@ model = LogisticRegression(max_iter=200)
 model.fit(X,y)
 
 #Save model
-joblib.dump(model, "model.pkl")
+joblib.dump(model, "data/model.pkl")
 print("Model trained and saved as model.pkl")
